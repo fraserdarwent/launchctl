@@ -379,7 +379,7 @@ const (
 
 var generateKey = box.GenerateKey
 
-// https://zostay.com/posts/2022/05/04/do-not-use-libsodium-with-go/
+// https://github.com/jefflinse/githubsecret/blob/main/nacl.go
 func encryptSecret(publicKey, secret string) (string, error) {
 	// decode the provided public key from base64
 	recipientKey := new([keySize]byte)
