@@ -272,7 +272,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	println("🚀 Starting")
+	println("🚀 Starting v1.1")
 	flavour := args[0]
 	projectName := args[1]
 	if strings.HasSuffix(flavour, "deno") {

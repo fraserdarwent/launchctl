@@ -6,4 +6,5 @@ run:
 build:
 	go build
 release: build
- 
+	gsutil cp install.sh gs://launchctl
+	gsutil cp launchctl gs://launchctl
