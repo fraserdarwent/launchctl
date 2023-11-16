@@ -26,10 +26,10 @@ SvelteKit on Cloudflare Pages via GitHub Actions
 Astro + Svelte on Deno Deploy via GitHub Actions
 ## Token Creation Help
 ### Create a GitHub PAT Token
-Go to your [https://github.com/settings/tokens](GitHub profile) and create a token with repo and workflow permissions
+Go to your [GitHub profile](https://github.com/settings/tokens) and create a token with repo and workflow permissions
 ![](docs/pat.jpg)
 ### Create a Denoy Deploy Token
 Go to your [Deno profile](https://dash.deno.com/account#access-tokens) and create an access token
 ### Create a Cloudflare Pages Token
-Go to your [Cloudflare Profile](https://dash.cloudflare.com/profile/api-tokens) and create a token with Cloudflare Pages edit permission
+Go to your [Cloudflare profile](https://dash.cloudflare.com/profile/api-tokens) and create a token with Cloudflare Pages edit permission
 ![](docs/cloudflare-token.png)
